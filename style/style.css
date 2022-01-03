@@ -10,8 +10,11 @@ a{
     cursor: pointer;
 }
 :root{
-    --color-botones: rgba(233, 233, 233, 0.224);
-    --color-input:  lightgrey;
+    --color-fondo-footer:#f2f2f2;
+    --color-botones: #f8f9fa;
+    --color-input:  #ececed;
+    --color-link-original: #1a0dab;
+    --color-letra-footer: #70757a;
 }
 .text-decoration:hover{
     text-decoration: underline;
@@ -70,11 +73,12 @@ a{
     position: sticky;
     display: flex;
     justify-content: right;
-    padding: 0.5rem 0;
+    padding: 0.4rem 0;
 }
 
 nav li{
     margin: 1rem 0.5rem;
+    font-weight: 300;
 
 }
 nav a{
@@ -115,7 +119,7 @@ footer{
     width: 100vw;
     height: 2.6rem;
     border-radius: 16px;
-    margin: 1rem 0 2rem;
+    margin: 1.5rem 0 2rem;
     border: 1px solid var(--color-input);
     padding: 0;
 
@@ -166,11 +170,11 @@ footer{
 
 
 .ofrecido-links a{
-    color: #2874A6;
+    color: var(--link-original);
 }
 
 .ofrecido-links--item{
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 0.9rem;
     width: 100%;
     text-align: center;
@@ -178,7 +182,7 @@ footer{
 }
 
 footer{
-    background-color: #edeeea;
+    background-color: var(--color-fondo-footer);
 }
 .footer__links{
     width: 100%;
@@ -188,14 +192,14 @@ footer{
 }
 
 .footer__links a{
-    color: grey;
+    color: var(--color-letra-footer);
     margin: 0.5rem;
 }
 
 .pais{
+    color: var(--color-letra-footer);
     padding: 0.5rem 0 0.5rem 1rem;
-    
-    border-bottom: lightgrey 2px solid;
+    border-bottom: #dcdee1 2px solid;
 }
 
 @media (min-width:600px){
