@@ -82,8 +82,9 @@ main{
     height: calc(100vh - 3rem);
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
+    padding-top: calc(50vh - 9.2rem);
+
+    align-content: flex-start;
     margin: 0 2rem;
     max-width: 600px;
 }
