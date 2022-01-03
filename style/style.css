@@ -79,10 +79,11 @@ nav a{
     color: black;
 }
 main{
-    height: calc(100vh - 3rem);
+    height: 100vh;
     display: flex;
     flex-flow: row wrap;
-    padding-top: calc(50vh - 9.2rem);
+    justify-content: center;
+    padding-top: calc(50vh - 12.2rem);
 
     align-content: flex-start;
     margin: 0 2rem;
