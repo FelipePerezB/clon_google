@@ -6,7 +6,9 @@
     text-decoration: none;
 }
 
-
+a{
+    cursor: pointer;
+}
 :root{
     --color-botones: rgba(233, 233, 233, 0.224);
     --color-input:  lightgrey;
