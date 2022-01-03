@@ -42,29 +42,27 @@ a{
     margin: 0.05rem;
 }
 
-.navar-li--active{
-    margin: 0.4rem;
+.logo__apps-li{
+    margin-top: 0.4rem;
+}
+.logo__cuenta-li{
+    margin-top: 0.1rem;
+
 }
 
 .logo__cuenta{
     border-radius: 20px;
-    /* font-family: sans-serif;
-    display: inline-block;
-    padding: 0.5rem;
+}
+
+.logo__cuenta--container{
     text-align: center;
-    color: white;
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    background-color: royalblue; */
-}
-
-.container-logo__cuenta{
-    padding: 0.3rem;
+    padding-top: 0.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
     border-radius: 50%;
 }
 
-.container-logo__cuenta:hover{
+.logo__cuenta--container:hover{
     background-color: lightgray;
 }
 
@@ -72,6 +70,7 @@ a{
     position: sticky;
     display: flex;
     justify-content: right;
+    padding: 0.5rem 0;
 }
 
 nav li{
@@ -82,7 +81,7 @@ nav a{
     color: black;
 }
 main{
-    height: 100vh;
+    height: calc(100vh - 3.5rem);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
