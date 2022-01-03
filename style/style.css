@@ -89,7 +89,7 @@ main{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding-top: calc(50vh - 12.2rem);
+    padding-top: calc(50vh - 14.2rem);
 
     align-content: flex-start;
     margin: 0 2rem;
